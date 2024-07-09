@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Azeret Mono;
+}
+
+/* header banner styles=============== */
+
+header {
+    width: 1440px;
+    height: 652px;
+    background-image: url(/assets/Hero-bg.png);
+
+    /* background-size: cover; */
+    /* border: red 2px solid; */
+
+
+}
+
+
+.banner-container {
+    width: 90%;
+    height: 582px;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+    /* border: yellow 2px solid; */
+
+}
+
+.banner-container-image {
+
+    width: 240.28px;
+    height: 240px;
+
+    /* border: salmon 2px solid; */
+}
+
+
+.banner-container-text {
+    width: 100%;
+    height: 250px;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: center;
+    text-align: center;
+
+    /* padding: 15px; */
+    /* border: magenta 2px solid; */
+}
+
+.banner-container-text-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    width: 100%;
+    margin: 0% auto;
+    
+
+    /* border: green 2px solid; */
+    /* text-align: center; */
+}
+
+.banner-container-text-subtitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    width: 80%;
+    margin: 1% auto;
+
+    /* border: red 2px solid; */
+
+}
+
+.btn-container {
+    color: aliceblue;
+    border-radius: 5px;
+    background: rgb(13, 19, 33);
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.btn-container>a>button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    
+}
+
