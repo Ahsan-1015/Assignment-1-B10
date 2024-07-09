@@ -273,3 +273,59 @@ main {
 
 
 }
+
+/* footer section styles start ============= */
+footer {
+    width: 1440px;
+    height: 100%;
+
+    /* border: green 2px solid; */
+}
+
+#inspiration {
+    width: 95%;
+    margin: 0% auto;
+    height: 730px;
+
+
+    /* border: red 2px solid; */
+}
+
+.inspiration-container-text {
+    width: 70%;
+    height: 115px;
+    margin: 0% auto;
+    
+
+    /* border: yellow 2px solid; */
+}
+
+.inspiration-container-text-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspiration-container-text-subtitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.inspiration-container-vidio{
+    width: 90%;
+    height: 570px;
+    margin: 3% auto;
+
+    /* border:  tomato 2px solid; */
+}
