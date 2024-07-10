@@ -285,9 +285,14 @@ footer {
 }
 
 #inspiration {
-    width: 95%;
+    width: 100%;
     margin: 0% auto;
     height: 730px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+
 
 
     /* border: red 2px solid; */
@@ -333,6 +338,7 @@ footer {
     width: 90%;
     height: 570px;
     margin: 3% auto;
+    padding-bottom: 15px;
 
     /* border:  tomato 2px solid; */
 }
@@ -370,7 +376,8 @@ footer {
     display: flex;
     flex-direction: row;
 
-    gap: 75px;
+
+    gap: 80px;
 
 
 
@@ -423,6 +430,17 @@ footer {
 
 }
 
+.lern-container {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    padding-top: 20px;
+
+    text-decoration-line: underline;
+}
+
 /* support section styles start  */
 
 #support {
@@ -435,11 +453,15 @@ footer {
     background-position: center;
     border-radius: 10px;
 
-    /* background-color: rgba(19, 18, 18, 0.959); */
+
+
+
+    /* background-color: rgba(19, 16, 16, 0.342); */
     /* position: absolute; */
 
 
     border: white 1px solid;
+
 }
 
 .support-container {
@@ -453,9 +475,9 @@ footer {
 .support-container-text {
     width: 70%;
     height: 104px;
-
     margin: 0% auto;
     text-align: center;
+
 
     /* border: hotpink 2px solid; */
 }
@@ -467,6 +489,9 @@ footer {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0%;
+
+
+
 
 }
 
@@ -498,14 +523,15 @@ footer {
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
     text-align: center;
-    
+
 
 
 
     /* border: aqua 2px solid; */
 
 }
-.support-container-form>textarea{
+
+.support-container-form>textarea {
     border-radius: 5PX;
     padding: 15px;
 
@@ -519,8 +545,58 @@ footer {
     font-weight: 600;
     letter-spacing: 0%;
     margin: 13px auto;
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
     border: none;
+}
+
+/* footer icon styles ================= */
+
+#footer {
+    width: 100%;
+    height: 65PX;
+    margin: 5% auto;
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 5px;
+
+    border: white 1px solid;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 44px;
+    margin: 10px 0px;
+
+    /* border: gold 2px solid; */
+}
+
+.footer-container-text {
+    width: 45%;
+    height: 100%;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding: 7px 0px;
+   
+
+    /* border: blueviolet 2px solid; */
+}
+
+.footer-container-icon{
+    height: 100%;
+   width: 12%;
+   display: flex;
+   justify-content: space-between;
+
+    /* border:  rgb(0, 255, 0) 2px solid; */
+}
+
+.footer-container-icon>a>img{
+    height: 100%;
 
 }
