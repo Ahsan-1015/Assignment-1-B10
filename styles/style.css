@@ -460,6 +460,8 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
 
     /* background-color: rgba(19, 16, 16, 0.342); */
 
@@ -602,6 +604,23 @@ footer {
 
 }
 
+.footer-container-icon-facebook:hover {
+    transform: scale(1.2)translateY(-2px);
+    filter: drop-shadow(1px 1px 5px red);
+
+}
+.footer-container-icon-github:hover{
+    transform: scale(1.2)translateY(-2px);
+    filter: drop-shadow(1px 1px 5px red);
+}
+
+.footer-container-icon-linkdin:hover{
+    transform: scale(1.2)translateY(-2px);
+    filter: drop-shadow(1px 1px 5px red);
+
+}
+
+
 
 /* contanct back button styles==================  */
 
@@ -609,7 +628,7 @@ footer {
     width: 1140px;
     height: 630px;
     margin: 50px auto;
-    
+
 
     /* border: red 2px solid; */
 }
